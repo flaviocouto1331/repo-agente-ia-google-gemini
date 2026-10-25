@@ -1,0 +1,22 @@
+services:
+ 
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: container-24102026-db
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "SenhaForte123!"
+    ports:
+      - "1433:1433"
+    volumes:
+      - volume-24102026:/var/opt/mssql
+    networks:
+      - network-24102026      
+  
+volumes:
+  volume-24102026:
+    driver: local
+
+networks:
+  network-24102026:
+    driver: bridge
