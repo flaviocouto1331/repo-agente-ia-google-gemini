@@ -1,3 +1,4 @@
+using cad_jogo_api.Endpoint;
 using cad_jogo_api.Extension;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -40,6 +41,8 @@ app.UseHttpsRedirection();
 //})
 //.WithName("GetWeatherForecast")
 //.WithOpenApi();
+
+app.AddJogosEndpoint();
 
 app.Run();
 

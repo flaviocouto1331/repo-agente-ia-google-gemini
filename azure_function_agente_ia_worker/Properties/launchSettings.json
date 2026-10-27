@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "azure_function_agente_ia_worker": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7234",
+      "launchBrowser": false
+    }
+  }
+}

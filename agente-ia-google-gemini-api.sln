@@ -5,8 +5,8 @@ VisualStudioVersion = 17.14.37710.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 	ProjectSection(SolutionItems) = preProject
-		docker\docker-sql.yml = docker\docker-sql.yml
-		docker\docker.yml = docker\docker.yml
+		docker\docker-compose.yml = docker\docker-compose.yml
+		docker\docker-compose-sql.yml = docker\docker-compose-sql.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql", "sql", "{5A143D29-B013-483B-9184-3FF9B3ABCC3C}"
@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql", "sql", "{5A143D29-B01
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cad_jogo_api", "cad_jogo_api\cad_jogo_api.csproj", "{1039A392-D07F-406F-943F-3EE83A0C3F1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "azure_function_agente_ia_worker", "azure_function_agente_ia_worker\azure_function_agente_ia_worker.csproj", "{52DC2E46-70D0-4160-9B54-5B1FF88C300F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{1039A392-D07F-406F-943F-3EE83A0C3F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1039A392-D07F-406F-943F-3EE83A0C3F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1039A392-D07F-406F-943F-3EE83A0C3F1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52DC2E46-70D0-4160-9B54-5B1FF88C300F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52DC2E46-70D0-4160-9B54-5B1FF88C300F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52DC2E46-70D0-4160-9B54-5B1FF88C300F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52DC2E46-70D0-4160-9B54-5B1FF88C300F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
